@@ -1,5 +1,12 @@
+'''
+Created on Feb 17, 2019
+@author: Daniel Procopio
+@summary: This program invokes the class that generates a config file from a jinja2 template and a YAML config file.
+@version: 1.0
+'''
+
 import argparse
-from jinja2cfg import config
+from   jinja2cfg import config
 import logging
 import sys
 
