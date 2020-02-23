@@ -1,4 +1,3 @@
-# python-jinja2-template-generator
 # Python program to generate code from Jinja2 templates
 
 ## Installation
