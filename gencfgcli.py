@@ -32,7 +32,7 @@ if __name__ == '__main__':
 
     main_parser = subparsers.add_parser('gencfg')
     main_parser.add_argument('input_yaml', help='YAML file contaning the'
-                                                'configuraton data')
+                                                ' configuraton data')
     main_parser.add_argument('input_template', help='Jinja2 template file')
     main_parser.add_argument('output_file', help='Generated config file',
                              default='')
