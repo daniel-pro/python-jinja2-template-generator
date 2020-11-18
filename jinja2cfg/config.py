@@ -37,7 +37,7 @@ class Cfg(object):
         Generates the config. If no output file is passed, it will store the config into _CfgGenerated variable
         ''' 
         self._Logger.info("Loading config data from "+self._CfgYAMLData)
-        config_data = yaml.load(open(self._CfgYAMLData))
+        config_data = yaml.load(open(self._CfgYAMLData), Loader=yaml.FullLoader)
         templatePath = str(pathlib.Path(self._CfgTemplate).parent)
         templateFile = pathlib.Path(self._CfgTemplate).name
         self._Logger.info("Loading templates from "+templatePath+" directory")
