@@ -30,7 +30,7 @@ if __name__ == '__main__':
                         datefmt='%Y-%m-%d %H:%M')
     logger = logging.getLogger('gencfgcli')
 
-    main_parser = subparsers.add_parser('gencfg')
+    main_parser = subparsers.add_parser('gen')
     main_parser.add_argument('input_yaml', help='YAML file contaning the'
                                                 ' configuraton data')
     main_parser.add_argument('input_template', help='Jinja2 template file')
