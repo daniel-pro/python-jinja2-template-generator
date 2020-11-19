@@ -8,6 +8,17 @@ Clone the repo :
 git clone https://github.com/daniel-pro/python-jinja2-template-generator.git
 ```
 
+Create the Docker container image :
+
+```sh
+cd python-jinja2-template-generator/
+docker build -t dpro/ptyg:1.0 .
+```
+
+Run the Docker container :
+```sh
+docker run --rm --mount type=bind,source=/tmp,target=/app/wdir dpro/ptyg:1.0 python ptyg.py /app/wdir/input.yaml /app/wdir/input.template /app/wdir/output.out
+```
 
 ## Dependencies
 1. pathlib
