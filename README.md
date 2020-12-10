@@ -21,6 +21,7 @@ docker run --rm --mount type=bind,source=/tmp,target=/app/wdir dpro/ptyg:1.0 pyt
 ```
 
 ## Dependencies
+Although you don't need them if you use the containerized version, these are the script's dependencies:
 1. pathlib
 2. pyyaml
 3. jinja2
