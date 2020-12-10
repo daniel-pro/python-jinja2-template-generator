@@ -17,7 +17,7 @@ docker build -t dpro/ptyg:1.0 .
 
 Run the Docker container :
 ```sh
-docker run --rm --mount type=bind,source=/tmp,target=/app/wdir dpro/ptyg:1.0 python ptyg.py /app/wdir/input.yaml /app/wdir/input.template /app/wdir/output.out
+docker run --rm --mount type=bind,source=/tmp,target=/app/wdir dpro/ptyg:1.0 python ptyg.py gen /app/wdir/input.yaml /app/wdir/input.template /app/wdir/output.out
 ```
 
 ## Dependencies
