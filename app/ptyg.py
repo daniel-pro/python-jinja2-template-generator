@@ -28,7 +28,7 @@ if __name__ == '__main__':
                         format='%(asctime)s [%(name)-9s] [%(levelname)-8s]'
                                '- %(message)s',
                         datefmt='%Y-%m-%d %H:%M')
-    logger = logging.getLogger('gencfgcli')
+    logger = logging.getLogger('ptyg')
 
     main_parser = subparsers.add_parser('gen')
     main_parser.add_argument('input_yaml', help='YAML file contaning the'
