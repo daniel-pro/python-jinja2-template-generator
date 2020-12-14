@@ -13,10 +13,11 @@ import sys
 
 
 def generateconfig(args):
+    logger.info("Invoking jinja2cfg")      
     newconfig = config.Cfg(args.input_yaml, args.input_template,
                            args.output_file)
     newconfig.generate()
-    logger.info(newconfig.getGeneratedCfg())
+    newconfig.getGeneratedCfg()
     logger.info("Done")
 
 
