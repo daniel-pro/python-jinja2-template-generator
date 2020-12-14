@@ -2,7 +2,12 @@
 
 ## Installation
 
-Clone the repo :
+If you want to use the latest stable release (v2.0 as of now):
+```sh
+wget https://github.com/daniel-pro/python-jinja2-template-generator/archive/v2.0.tar.gz
+```
+
+Otherwise if you want to use the development branch (at your own risk): 
 
 ```sh
 git clone https://github.com/daniel-pro/python-jinja2-template-generator.git
