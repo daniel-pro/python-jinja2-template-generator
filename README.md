@@ -2,7 +2,7 @@
 
 ## Installation
 
-If you want to use the latest stable release (v2.0 as of now):
+To install the latest stable release (v2.0 as of now):
 ```sh
 wget https://github.com/daniel-pro/python-jinja2-template-generator/archive/v2.0.tar.gz
 tar zxvf v2.0.tar.gz
