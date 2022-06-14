@@ -18,7 +18,7 @@ Create the Docker container image :
 
 ```sh
 cd python-jinja2-template-generator/
-docker build -t dpro/ptyg:1.0 .
+docker build -t dpro/ptyg:2.0 .
 ```
 
 Run the Docker container :
