@@ -10,7 +10,7 @@ LABEL org.label-schema.docker.cmd="docker run --rm --mount type=bind,source=/tmp
 
 COPY app /app
 
-RUN pip install -r /app/requirements.txt
+RUN python -m pip install --upgrade pip; pip install -r /app/requirements.txt
 
 WORKDIR /app
 
